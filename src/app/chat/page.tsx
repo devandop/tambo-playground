@@ -28,11 +28,11 @@ export default function Home() {
       tamboUrl={process.env.NEXT_PUBLIC_TAMBO_URL}
       mcpServers={mcpServers}
     >
-      <ThreadPersistence panelKey="chat">
-        <div className="h-screen">
-          <MessageThreadFull className="max-w-4xl mx-auto"/>
-        </div>
-      </ThreadPersistence>
+      <ThreadPersistence panelKey="chat" />
+      <div className="h-screen">
+        <MessageThreadFull className="max-w-4xl mx-auto"/>
+      </div>
     </TamboProvider>
   );
 }
+
