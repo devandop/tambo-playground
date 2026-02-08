@@ -173,7 +173,7 @@ export const createMarkdownComponents = (): Record<
 
     return (
       <code
-        className={cn("bg-muted px-1.5 py-0.5 rounded text-sm", className)}
+        className={cn("bg-muted px-1.5 py-0.5 rounded text-sm text-white", className)}
         {...props}
       >
         {children}
@@ -184,14 +184,14 @@ export const createMarkdownComponents = (): Record<
   /**
    * Paragraph component with minimal vertical margin
    */
-  p: ({ children }) => <p className="my-0">{children}</p>,
+  p: ({ children }) => <p className="my-0 text-white">{children}</p>,
 
   /**
    * Heading 1 component with large text and proper spacing
    * Used for main section headers
    */
   h1: ({ children }) => (
-    <h1 className="text-2xl font-bold mb-4 mt-6">{children}</h1>
+    <h1 className="text-2xl font-bold mb-4 mt-6 text-white">{children}</h1>
   ),
 
   /**
@@ -199,7 +199,7 @@ export const createMarkdownComponents = (): Record<
    * Slightly smaller than h1 with adjusted spacing
    */
   h2: ({ children }) => (
-    <h2 className="text-xl font-bold mb-3 mt-5">{children}</h2>
+    <h2 className="text-xl font-bold mb-3 mt-5 text-white">{children}</h2>
   ),
 
   /**
@@ -207,7 +207,7 @@ export const createMarkdownComponents = (): Record<
    * Used for smaller subdivisions within h2 sections
    */
   h3: ({ children }) => (
-    <h3 className="text-lg font-bold mb-2 mt-4">{children}</h3>
+    <h3 className="text-lg font-bold mb-2 mt-4 text-white">{children}</h3>
   ),
 
   /**
@@ -215,33 +215,33 @@ export const createMarkdownComponents = (): Record<
    * Maintains consistent text size with adjusted spacing
    */
   h4: ({ children }) => (
-    <h4 className="text-base font-bold mb-2 mt-3">{children}</h4>
+    <h4 className="text-base font-bold mb-2 mt-3 text-white">{children}</h4>
   ),
 
   /**
    * Unordered list component with disc-style bullets
    * Indented from the left margin
    */
-  ul: ({ children }) => <ul className="list-disc pl-5">{children}</ul>,
+  ul: ({ children }) => <ul className="list-disc pl-5 text-white">{children}</ul>,
 
   /**
    * Ordered list component with decimal numbering
    * Indented from the left margin
    */
-  ol: ({ children }) => <ol className="list-decimal pl-5">{children}</ol>,
+  ol: ({ children }) => <ol className="list-decimal pl-5 text-white">{children}</ol>,
 
   /**
    * List item component with normal line height
    * Used within both ordered and unordered lists
    */
-  li: ({ children }) => <li className="leading-normal">{children}</li>,
+  li: ({ children }) => <li className="leading-normal text-white">{children}</li>,
 
   /**
    * Blockquote component for quoted content
    * Features a left border and italic text with proper spacing
    */
   blockquote: ({ children }) => (
-    <blockquote className="border-l-4 border-muted pl-4 italic my-4">
+    <blockquote className="border-l-4 border-muted pl-4 italic my-4 text-white">
       {children}
     </blockquote>
   ),
@@ -337,3 +337,4 @@ export const createMarkdownComponents = (): Record<
  * Pre-created markdown components instance for use across the application.
  */
 export const markdownComponents = createMarkdownComponents();
+
