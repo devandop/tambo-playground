@@ -1,0 +1,17 @@
+{
+  "name": "Tambo Compare - Generative UI Playground",
+  "short_name": "Tambo Compare",
+  "description": "A comparison of Tambo AI's generative UI capabilities vs plain text",
+  "start_url": "/compare",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/Tambo-Lockup.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

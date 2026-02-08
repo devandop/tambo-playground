@@ -1,0 +1,46 @@
+Region,Product,Sales,Revenue,Month,Year,Customer_Rating
+North America,Laptop,245,122500,January,2025,4.5
+North America,Phone,432,216000,January,2025,4.7
+Europe,Laptop,189,94500,January,2025,4.3
+Europe,Phone,312,156000,January,2025,4.6
+Asia,Laptop,567,283500,January,2025,4.8
+Asia,Phone,789,394500,January,2025,4.9
+North America,Tablet,156,78000,January,2025,4.2
+Europe,Tablet,134,67000,January,2025,4.1
+Asia,Tablet,298,149000,January,2025,4.6
+North America,Laptop,267,133500,February,2025,4.6
+North America,Phone,456,228000,February,2025,4.8
+Europe,Laptop,201,100500,February,2025,4.4
+Europe,Phone,334,167000,February,2025,4.7
+Asia,Laptop,612,306000,February,2025,4.9
+Asia,Phone,834,417000,February,2025,5.0
+North America,Tablet,178,89000,February,2025,4.3
+Europe,Tablet,145,72500,February,2025,4.2
+Asia,Tablet,321,160500,February,2025,4.7
+North America,Laptop,289,144500,March,2025,4.7
+North America,Phone,489,244500,March,2025,4.9
+Europe,Laptop,223,111500,March,2025,4.5
+Europe,Phone,367,183500,March,2025,4.8
+Asia,Laptop,678,339000,March,2025,5.0
+Asia,Phone,912,456000,March,2025,5.0
+North America,Tablet,198,99000,March,2025,4.4
+Europe,Tablet,167,83500,March,2025,4.3
+Asia,Tablet,356,178000,March,2025,4.8
+South America,Laptop,145,72500,January,2025,4.2
+South America,Phone,234,117000,January,2025,4.5
+South America,Tablet,89,44500,January,2025,4.0
+South America,Laptop,167,83500,February,2025,4.3
+South America,Phone,267,133500,February,2025,4.6
+South America,Tablet,102,51000,February,2025,4.1
+South America,Laptop,189,94500,March,2025,4.4
+South America,Phone,298,149000,March,2025,4.7
+South America,Tablet,123,61500,March,2025,4.2
+Africa,Laptop,98,49000,January,2025,4.0
+Africa,Phone,167,83500,January,2025,4.3
+Africa,Tablet,56,28000,January,2025,3.9
+Africa,Laptop,112,56000,February,2025,4.1
+Africa,Phone,189,94500,February,2025,4.4
+Africa,Tablet,67,33500,February,2025,4.0
+Africa,Laptop,134,67000,March,2025,4.2
+Africa,Phone,212,106000,March,2025,4.5
+Africa,Tablet,78,39000,March,2025,4.1
